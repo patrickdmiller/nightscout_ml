@@ -1,0 +1,24 @@
+version: "3.7" 
+services:
+    nslowpredict:
+      image: patrickdmiller/ns_low_predict:latest
+      environment:
+        restart: always  
+      volumes:
+        - /mnt/Development/models/ns_low_predict/:/model
+      ports:
+        - "5000:5000"
+      networks:
+        - nsml
+    web:
+      image: patrickdmiller/nightscout_low_predict_fe
+      environment:
+        restart: always
+      ports:
+        - "3002:3001"
+      networks:
+        - nsml
+ 
+networks:
+   nsml:
+     driver: bridge
