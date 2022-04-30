@@ -1,3 +1,9 @@
 [submodule "nightscout_predict_next_fe"]
 	path = nightscout_predict_next_fe
 	url = git@github.com:patrickdmiller/patrickdmiller-nightscout_predict_next_fe.git
+[submodule "nightscout_predict_low_fe"]
+	path = nightscout_predict_low_fe
+	url = git@github.com:patrickdmiller/nightscout_predict_low_fe.git
+[submodule "nightscout_data_web_client"]
+	path = nightscout_data_web_client
+	url = git@github.com:patrickdmiller/nightscout_data_web_client.git
