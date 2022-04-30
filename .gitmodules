@@ -7,3 +7,15 @@
 [submodule "nightscout_data_web_client"]
 	path = nightscout_data_web_client
 	url = git@github.com:patrickdmiller/nightscout_data_web_client.git
+[submodule "nightscout_data_web_api"]
+	path = nightscout_data_web_api
+	url = git@github.com:patrickdmiller/nightscout_data_web_api.git
+[submodule "nightscout_predict_low"]
+	path = nightscout_predict_low
+	url = git@github.com:patrickdmiller/nightscout_predict_low.git
+[submodule "nightscout_predict_low_model_builder"]
+	path = nightscout_predict_low_model_builder
+	url = git@github.com:patrickdmiller/nightscout_predict_low_model_builder.git
+[submodule "nightscout_predict_next"]
+	path = nightscout_predict_next
+	url = git@github.com:patrickdmiller/nightscout_predict_next.git
